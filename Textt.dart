@@ -21,7 +21,6 @@ class _TexttState extends State<Textt> {
               fontSize: 60,
               wordSpacing: 10,
               letterSpacing: 10,
-              fontFamily: 'Barrio',
               shadows: [Shadow(color: Colors.black,offset: Offset(2, 5))],
             ),
           ),

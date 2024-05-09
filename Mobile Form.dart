@@ -310,11 +310,6 @@ class _MobileFormState extends State<MobileForm> {
             ElevatedButton(onPressed: (){
               Navigator.push(context,
               MaterialPageRoute(builder: (context)=> cchh(),),);
-
-
-
-
-
             },
                 child: Text('Register'),)
 
