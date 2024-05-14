@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:newdemo/Widget/Shopping_pink.dart';
+import 'package:newdemo/Widget/Shopping_pink6.dart';
 
 class Shoppingpink5 extends StatefulWidget {
   const Shoppingpink5({super.key});
@@ -195,7 +197,9 @@ class _Shoppingpink5State extends State<Shoppingpink5> {
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           IconButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(context, MaterialPageRoute(builder:  (context)=>Shoppingpink()));
+                              },
                               icon: Icon(
                                 Icons.home,
                                 color: Colors.grey,
@@ -209,7 +213,9 @@ class _Shoppingpink5State extends State<Shoppingpink5> {
                                 size: 35,
                               )),
                           IconButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(context, MaterialPageRoute(builder:  (context)=>Shoppingpink6()));
+                              },
                               icon: Icon(
                                 Icons.account_circle_rounded,
                                 color: Colors.yellow,
